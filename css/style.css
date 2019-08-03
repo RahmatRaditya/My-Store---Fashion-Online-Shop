@@ -1,0 +1,358 @@
+body {
+  font-family: "montserrat";
+}
+
+/* LANDING PAGE */
+/* Navbar */
+.navbar {
+  background-color: #171717;
+}
+
+.navbar .nav-item,
+.nav-tabs .nav-item {
+  font-weight: 200;
+}
+
+.navbar .nav-item {
+  margin-right: 30px;
+}
+
+.navbar .nav-item :hover {
+  color: #f9b234 !important;
+}
+
+.navbar .nav-item.active a {
+  font-weight: 600;
+  color: #f9b234 !important;
+}
+
+.navbar .nav-link span {
+  color: #f9b234 !important;
+  font-weight: 600;
+}
+
+/* Carousel */
+.carousel {
+  height: 450px;
+  background-color: #171717;
+  color: white;
+  margin-top: 66px;
+}
+
+.carousel h1 {
+  font-family: "lora";
+}
+
+.carousel .btn {
+  background-color: #f9b234;
+}
+
+.carousel p {
+  font-weight: 200;
+}
+
+.carousel img {
+  width: 250px;
+  padding: 5px;
+  border: 5px #f9b234 solid;
+}
+
+/* Product */
+.product {
+  background-color: #f0f0f0;
+}
+
+.product h3,
+.designer h3,
+.similar h3,
+.checkout h3,
+.modal-checkout-success h3 {
+  font-family: "lora";
+  font-weight: bold;
+  color: #1b2690;
+}
+
+.product p,
+.designer p,
+.similar p,
+.checkout p,
+.modal-checkout-success p {
+  font-weight: 200;
+  color: #b7b7b7;
+}
+
+.figure h5 {
+  color: #171717;
+}
+
+.figure-img {
+  position: relative;
+}
+
+.figure-img a {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 8px;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.figure-img :hover {
+  opacity: 1;
+}
+
+/* Designer */
+.designer .figure img {
+  width: 130px;
+  padding: 5px;
+  border: 0.5px #b7b7b7 solid;
+}
+
+.designer .figure img:hover {
+  border: 3px #f9b234 solid;
+  padding: 1px;
+  transition: 0.5s;
+}
+
+.see a {
+  font-weight: 200;
+  color: #1b2690 !important;
+}
+
+/* Footer */
+footer {
+  border-top: 0.5px #eeeeee solid;
+  margin-top: 200px;
+}
+
+footer .social a {
+  margin: 0 5px;
+}
+
+footer p {
+  color: #b7b7b7;
+}
+
+footer span {
+  color: #171717;
+}
+
+footer .nav-link {
+  padding-top: 0;
+  color: #b7b7b7;
+}
+
+/* ========================================================================
+=========================================================================== */
+/* SINGLE PRODUCT */
+/* Breadcrumb */
+.breadcrumb {
+  margin-top: 66px;
+  background-color: white;
+}
+
+.breadcrumb a {
+  color: #1b2690 !important;
+}
+
+.breadcrumb .active {
+  color: #b7b7b7;
+}
+
+/* Show Product */
+.product-thumbnail {
+  background-color: white;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  width: 380px;
+  padding: 8px;
+  margin: auto;
+  transform: translateY(-55px);
+}
+
+.action-product {
+  margin-right: 50px;
+}
+
+.action-product h3 {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.price {
+  font-size: 28px;
+  font-weight: 600;
+  color: #f9b234;
+}
+
+.btn-minus {
+  background-color: #eaeaef;
+  height: 36px;
+  width: 36px;
+}
+
+.btn-plus {
+  background-color: #1abc9c;
+  height: 36px;
+  width: 36px;
+}
+
+.btn-del {
+  background-color: #FF3151;
+  height: 36px;
+  width: 36px;
+}
+
+.quantity {
+  font-size: 22px;
+}
+
+.btn-cart {
+  background-color: #f9b234;
+  color: white;
+  width: 320px;
+  margin-top: 40px;
+}
+
+.btn-wishlist {
+  background-color: #eaecfa;
+  width: 320px;
+}
+
+.action-product hr {
+  width: 320px;
+  margin-top: 30px !important;
+  margin-bottom: 20px !important;
+}
+
+.designed-label {
+  font-size: 14px;
+  margin-bottom: 15px;
+  color: #b7b7b7;
+}
+
+.action-product .figure-img,
+.tab-content .figure-img {
+  width: 60px;
+  padding: 4.5px;
+  border: 0.5px #b7b7b7 solid;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.follower {
+  font-size: 14px;
+  font-weight: 200;
+  color: #b7b7b7;
+  margin-top: 4px !important;
+}
+
+.follower span {
+  color: #171717;
+}
+
+.tab-content {
+  background-color: white;
+  border: #dee2e6 solid 1px;
+  border-top: none;
+  box-shadow: 0px 4px 15px rgba(32, 32, 32, 0.1);
+}
+
+.product-description {
+  height: 350px;
+  background-color: #f6f7fb;
+  margin-bottom: 150px;
+}
+
+.product-description .nav-link {
+  font-size: 18px;
+  font-weight: 400;
+  color: #b2b2b2;
+}
+
+.nav-tabs .nav-link span {
+  color: #1abc9c !important;
+}
+
+.description p {
+  font-size: 16px;
+  font-weight: 200;
+  color: #868686;
+  line-height: 18px;
+}
+
+.review p {
+  line-height: none;
+  font-size: 14px;
+}
+
+.tab-content {
+  height: 350px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.review .figure-img {
+  margin-right: 30px;
+}
+
+.comment,
+.caption {
+  margin-left: -10px;
+}
+
+.similar .figure-caption p {
+  font-size: 18px;
+}
+
+/* Chechout */
+.card-body h5 {
+  font-size: 18px;
+
+}
+
+.card-body p {
+  font-size: 14px;
+  color: #b7b7b7;
+}
+
+.price-info {
+  color: #1abc9c !important;
+  font-size: 18px !important;
+}
+
+.price-info-promo {
+  color: #FF3151 !important;
+  font-size: 18px !important;
+}
+
+.price-info-total {
+  color: #1b2690 !important;
+  font-size: 18px !important;
+  font-weight: 600;
+}
+
+.btn-checkout {
+  background-color: #f9b234;
+  color: white;
+  width: 100%;
+  font-weight: 200;
+}
+
+.btn-cancel {
+  background-color: #eaeaef;
+  color: black;
+  width: 100%;
+  font-weight: 200;
+}
+
+.btn-home {
+  background-color: #eaeaef;
+  color: black;
+  font-weight: 200;
+}
